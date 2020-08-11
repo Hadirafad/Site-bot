@@ -1,0 +1,591 @@
+{
+  "rasa_nlu_data": {
+    "common_examples": [
+      {
+        "intent": "greet",
+        "text": "hey"
+      },
+      {
+        "intent": "greet",
+        "text": "hello"
+      },
+      {
+        "intent": "greet",
+        "text": "hi"
+      },
+      {
+        "intent": "greet",
+        "text": "good morning"
+      },
+      {
+        "intent": "greet",
+        "text": "good evening"
+      },
+      {
+        "intent": "greet",
+        "text": "hey there"
+      },
+      {
+        "intent": "greet",
+        "text": "hai"
+      },
+      {
+        "intent": "thanks",
+        "text": "thanks"
+      },
+      {
+        "intent": "thanks",
+        "text": "thank you"
+      },
+      {
+        "intent": "thanks",
+        "text": "thank you so much"
+      },
+      {
+        "intent": "goodbye",
+        "text": "bye"
+      },
+      {
+        "intent": "goodbye",
+        "text": "goodbye"
+      },
+      {
+        "intent": "goodbye",
+        "text": "see you around"
+      },
+      {
+        "intent": "goodbye",
+        "text": "see you later"
+      },
+      {
+        "intent": "goodbye",
+        "text": "bye bye"
+      },
+      {
+        "intent": "goodbye",
+        "text": "catch you later"
+      },
+      {
+        "intent": "goodbye",
+        "text": "bbye"
+      },
+      {
+        "intent": "goodbye",
+        "text": "stop"
+      },
+      {
+        "intent": "deny",
+        "text": "no"
+      },
+      {
+        "intent": "deny",
+        "text": "never"
+      },
+      {
+        "intent": "deny",
+        "text": "I don't think so"
+      },
+      {
+        "intent": "deny",
+        "text": "don't like that"
+      },
+      {
+        "intent": "deny",
+        "text": "no way"
+      },
+      {
+        "intent": "deny",
+        "text": "not really"
+      },
+      {
+        "intent": "intro",
+        "text": "who are you"
+      },
+      {
+        "intent": "intro",
+        "text": "what do you do"
+      },
+      {
+        "intent": "intro",
+        "text": "what can you do for me"
+      },
+      {
+        "intent": "event_time",
+        "entities": [
+          {
+            "start": 12,
+            "end": 19,
+            "value": "chatbot",
+            "entity": "event_name"
+          }
+        ],
+        "text": "when is the chatbot event happening"
+      },
+      {
+        "intent": "event_time",
+        "entities": [
+          {
+            "start": 8,
+            "end": 14,
+            "value": "python",
+            "entity": "event_name"
+          }
+        ],
+        "text": "when is python event happening"
+      },
+      {
+        "intent": "event_time",
+        "entities": [
+          {
+            "start": 8,
+            "end": 20,
+            "value": "registration",
+            "entity": "event_name"
+          }
+        ],
+        "text": "when is registration"
+      },
+      {
+        "intent": "event_time",
+        "entities": [
+          {
+            "start": 8,
+            "end": 24,
+            "value": "closing ceremony",
+            "entity": "event_name"
+          }
+        ],
+        "text": "when is closing ceremony"
+      },
+      {
+        "intent": "event_time",
+        "entities": [
+          {
+            "start": 8,
+            "end": 15,
+            "value": "keynote",
+            "entity": "event_name"
+          }
+        ],
+        "text": "when is keynote"
+      },
+      {
+        "intent": "event_time",
+        "entities": [
+          {
+            "start": 8,
+            "end": 31,
+            "value": "artificial intelligence",
+            "entity": "event_name"
+          }
+        ],
+        "text": "when is artificial intelligence event happening"
+      },
+      {
+        "intent": "event_time",
+        "entities": [
+          {
+            "start": 8,
+            "end": 25,
+            "value": "tango with django",
+            "entity": "event_name"
+          }
+        ],
+        "text": "when is tango with django event happening"
+      },
+      {
+        "intent": "event_list",
+        "entities": [
+          {
+            "start": 12,
+            "end": 18,
+            "value": "before",
+            "entity": "relative_time"
+          },
+          {
+            "start": 19,
+            "end": 22,
+            "value": "4pm",
+            "entity": "time"
+          }
+        ],
+        "text": "list events before 4pm"
+      },
+      {
+        "intent": "event_list",
+        "entities": [
+          {
+            "start": 12,
+            "end": 17,
+            "value": "after",
+            "entity": "relative_time"
+          },
+          {
+            "start": 18,
+            "end": 21,
+            "value": "5pm",
+            "entity": "time"
+          }
+        ],
+        "text": "list events after 5pm"
+      },
+      {
+        "intent": "event_list_tomorrow",
+        "entities": [
+          {
+            "start": 30,
+            "end": 38,
+            "value": "tomorrow",
+            "entity": "day"
+          }
+        ],
+        "text": "what are the events happening tomorrow"
+      },
+      {
+        "intent": "event_list_tomorrow",
+        "entities": [
+          {
+            "start": 19,
+            "end": 27,
+            "value": "tomorrow",
+            "entity": "day"
+          }
+        ],
+        "text": "list the events on tomorrow"
+      },
+      {
+        "intent": "event_request_place",
+        "entities": [
+          {
+            "start": 27,
+            "end": 39,
+            "value": "lecture hall",
+            "entity": "place"
+          }
+        ],
+        "text": "What event is happening at lecture hall"
+      },
+      {
+        "intent": "event_request_place",
+        "entities": [
+          {
+            "start": 21,
+            "end": 33,
+            "value": "lecture hall",
+            "entity": "place"
+          }
+        ],
+        "text": "What is happening at lecture hall"
+      },
+      {
+        "intent": "event_request_place",
+        "entities": [
+          {
+            "start": 27,
+            "end": 39,
+            "value": "seminar hall",
+            "entity": "place"
+          }
+        ],
+        "text": "What event is happening at seminar hall"
+      },
+      {
+        "intent": "event_request_place",
+        "entities": [
+          {
+            "start": 21,
+            "end": 33,
+            "value": "seminar hall",
+            "entity": "place"
+          }
+        ],
+        "text": "What is happening at seminar hall"
+      },
+      {
+        "intent": "event_request_place",
+        "entities": [
+          {
+            "start": 27,
+            "end": 37,
+            "value": "auditorium",
+            "entity": "place"
+          }
+        ],
+        "text": "What event is happening at auditorium"
+      },
+      {
+        "intent": "event_request_place",
+        "entities": [
+          {
+            "start": 21,
+            "end": 31,
+            "value": "auditorium",
+            "entity": "place"
+          }
+        ],
+        "text": "What is happening at auditorium"
+      },
+      {
+        "intent": "event_request_placetimeday",
+        "entities": [
+          {
+            "start": 27,
+            "end": 37,
+            "value": "auditorium",
+            "entity": "place"
+          },
+          {
+            "start": 38,
+            "end": 42,
+            "value": "10am",
+            "entity": "time"
+          },
+          {
+            "start": 43,
+            "end": 51,
+            "value": "tomorrow",
+            "entity": "day"
+          }
+        ],
+        "text": "What event is happening at auditorium 10am tomorrow"
+      },
+      {
+        "intent": "event_request_placetimeday",
+        "entities": [
+          {
+            "start": 27,
+            "end": 39,
+            "value": "lecture hall",
+            "entity": "place"
+          },
+          {
+            "start": 40,
+            "end": 43,
+            "value": "2pm",
+            "entity": "time"
+          },
+          {
+            "start": 44,
+            "end": 52,
+            "value": "tomorrow",
+            "entity": "day"
+          }
+        ],
+        "text": "What event is happening at lecture hall 2pm tomorrow"
+      },
+      {
+        "intent": "event_request_placetimeday",
+        "entities": [
+          {
+            "start": 27,
+            "end": 39,
+            "value": "seminar hall",
+            "entity": "place"
+          },
+          {
+            "start": 40,
+            "end": 43,
+            "value": "5pm",
+            "entity": "time"
+          },
+          {
+            "start": 44,
+            "end": 49,
+            "value": "today",
+            "entity": "day"
+          }
+        ],
+        "text": "What event is happening at seminar hall 5pm today"
+      },
+      {
+        "intent": "event_request_placetimeday",
+        "entities": [
+          {
+            "start": 27,
+            "end": 39,
+            "value": "lecture hall",
+            "entity": "place"
+          },
+          {
+            "start": 40,
+            "end": 43,
+            "value": "4pm",
+            "entity": "time"
+          },
+          {
+            "start": 44,
+            "end": 49,
+            "value": "today",
+            "entity": "day"
+          }
+        ],
+        "text": "What event is happening at lecture hall 4pm today"
+      },
+      {
+        "intent": "event_request_time",
+        "entities": [
+          {
+            "start": 27,
+            "end": 30,
+            "value": "5pm",
+            "entity": "time"
+          }
+        ],
+        "text": "What event is happening at 5pm"
+      },
+      {
+        "intent": "event_request_time",
+        "entities": [
+          {
+            "start": 17,
+            "end": 20,
+            "value": "9am",
+            "entity": "time"
+          }
+        ],
+        "text": "What event is at 9am"
+      },
+      {
+        "intent": "event_request_time",
+        "entities": [
+          {
+            "start": 11,
+            "end": 15,
+            "value": "10am",
+            "entity": "time"
+          }
+        ],
+        "text": "what is at 10am"
+      },
+      {
+        "intent": "event_request_time",
+        "entities": [
+          {
+            "start": 11,
+            "end": 15,
+            "value": "11am",
+            "entity": "time"
+          }
+        ],
+        "text": "what is at 11am"
+      },
+      {
+        "intent": "event_request_time",
+        "entities": [
+          {
+            "start": 11,
+            "end": 15,
+            "value": "12pm",
+            "entity": "time"
+          }
+        ],
+        "text": "what is at 12pm"
+      },
+      {
+        "intent": "event_request_time",
+        "entities": [
+          {
+            "start": 28,
+            "end": 31,
+            "value": "now",
+            "entity": "time"
+          }
+        ],
+        "text": "What is the event happening now"
+      },
+      {
+        "intent": "event_request_timeday",
+        "entities": [
+          {
+            "start": 21,
+            "end": 24,
+            "value": "1pm",
+            "entity": "time"
+          },
+          {
+            "start": 25,
+            "end": 30,
+            "value": "today",
+            "entity": "day"
+          }
+        ],
+        "text": "What is the event at 1pm today"
+      },
+      {
+        "intent": "event_request_timeday",
+        "entities": [
+          {
+            "start": 21,
+            "end": 24,
+            "value": "9am",
+            "entity": "time"
+          },
+          {
+            "start": 25,
+            "end": 33,
+            "value": "tomorrow",
+            "entity": "day"
+          }
+        ],
+        "text": "What is the event at 9am tomorrow"
+      },
+      {
+        "intent": "event_request_timeday",
+        "entities": [
+          {
+            "start": 27,
+            "end": 31,
+            "value": "10am",
+            "entity": "time"
+          },
+          {
+            "start": 32,
+            "end": 37,
+            "value": "today",
+            "entity": "day"
+          }
+        ],
+        "text": "What event is happening at 10am today"
+      },
+      {
+        "intent": "event_request_timeday",
+        "entities": [
+          {
+            "start": 24,
+            "end": 27,
+            "value": "2pm",
+            "entity": "time"
+          },
+          {
+            "start": 28,
+            "end": 36,
+            "value": "tomorrow",
+            "entity": "day"
+          }
+        ],
+        "text": "what event is happening 2pm tomorrow"
+      },
+      {
+        "intent": "event_request_timeday",
+        "entities": [
+          {
+            "start": 18,
+            "end": 27,
+            "value": "same time",
+            "entity": "time"
+          },
+          {
+            "start": 28,
+            "end": 36,
+            "value": "tomorrow",
+            "entity": "day"
+          }
+        ],
+        "text": "What is the event same time tomorrow"
+      }
+    ],
+    "regex_features": [],
+    "lookup_tables": [],
+    "entity_synonyms": []
+  }
+}
