@@ -1,0 +1,42 @@
+[
+    {
+        "text": "list events before 4pm",
+        "intent": "event_list",
+        "intent_prediction": {
+            "name": "event_request_timeday",
+            "confidence": 0.1660230521643445
+        }
+    },
+    {
+        "text": "list events after 5pm",
+        "intent": "event_list",
+        "intent_prediction": {
+            "name": "event_request_timeday",
+            "confidence": 0.17016619254851437
+        }
+    },
+    {
+        "text": "what are the events happening tomorrow",
+        "intent": "event_list_tomorrow",
+        "intent_prediction": {
+            "name": "event_request_timeday",
+            "confidence": 0.17088777867067148
+        }
+    },
+    {
+        "text": "list the events on tomorrow",
+        "intent": "event_list_tomorrow",
+        "intent_prediction": {
+            "name": "event_request_timeday",
+            "confidence": 0.17156353979737332
+        }
+    },
+    {
+        "text": "What event is happening at 10am today",
+        "intent": "event_request_timeday",
+        "intent_prediction": {
+            "name": "event_request_time",
+            "confidence": 0.29631471801224657
+        }
+    }
+]

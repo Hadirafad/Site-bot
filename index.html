@@ -1,0 +1,37 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+	<style>
+
+h1,h3 {
+  color: white;
+}		
+body {
+  background-image: url('8.jpg');
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+}
+</style>
+	<title>rasa webchat</title>
+</head>
+<body>
+<h1 align="center">PYDELHI CONFERENCE</h1>
+<h3 align="center">CONFERENCE ON PYTHON PROGRAMMING LANGUAGE</h3>
+
+<div id="webchat"></div>
+<script src="https://cdn.jsdelivr.net/npm/rasa-webchat/lib/index.min.js"></script>
+<script>
+  WebChat.default.init({
+    selector: "#webchat",
+    customData: {"language": "en"}, // arbitrary custom data. Stay minimal as this will be added to the socket
+    socketUrl: "http://localhost:5005",
+    socketPath: "/socket.io/",
+    title: "Site-Bot",
+    subtitle: "An Intelligent Chatbot",
+    params: {"storage": "session"} // can be set to "local"  or "session". details in storage section.
+  })
+</script>
+</body>
+</html>

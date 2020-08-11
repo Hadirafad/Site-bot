@@ -1,0 +1,54 @@
+session_config:
+  session_expiration_time: 60
+  carry_over_slots_to_new_session: true
+intents:
+- greet
+- goodbye
+- thanks
+- deny
+- intro
+- event_time
+- event_list
+- event_list_tomorrow
+- event_request_place
+- event_request_placetimeday
+- event_request_time
+- event_request_timeday
+entities:
+- day
+- time
+- place
+- relative_time
+- event_name
+slots:
+  day:
+    type: text
+  event_name:
+    type: text
+  place:
+    type: text
+  relative_time:
+    type: text
+  time:
+    type: text
+responses:
+  utter_ask_howcanhelp:
+  - text: Hey guest.. welcome to the conference website.. How can i help you.?
+  utter_goodbye:
+  - text: Bye. Have a nice day
+  utter_welcome:
+  - text: you are welcome
+  utter_unclear:
+  - text: Sorry, Iam unable to understand...
+actions:
+- utter_ask_howcanhelp
+- utter_welcome
+- utter_goodbye
+- utter_unclear
+- action_event_time
+- action_event_list
+- action_event_list_tomorrow
+- action_event_request_place
+- action_event_request_placetimeday
+- action_event_request_time
+- action_event_request_timeday
